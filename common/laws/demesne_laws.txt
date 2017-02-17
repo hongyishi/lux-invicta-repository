@@ -4863,46 +4863,44 @@ laws = {
 		effect = {
 			hidden_tooltip = {
 				revoke_law = clanic_centralization_0
-				revoke_law = clanic_centralization_1
 				revoke_law = clanic_centralization_2
 				revoke_law = clanic_centralization_3
 				revoke_law = clanic_centralization_4
-				custom_tooltip = {
-					text = clanic_centralization_1_effect_1
-				}
-				custom_tooltip = {
-					text = clanic_centralization_1_effect_2
-				}
-				if = {
-					limit = {
-						has_law = tolerance_2
-					}
-					revoke_law = tolerance_2
-					add_law = tolerance_1
-				}
-				if = { 
-					limit = { has_dlc = "Zeus" } 
-					hidden_tooltip = {
-						revoke_law = revoke_title_voting_power_1
-						revoke_law = grant_title_voting_power_1
-						disable_council_voting_on_issue = revoke_title_interaction
-						disable_council_voting_on_issue = grant_landed_title_interaction
-					}
-				}
-
-			}
-			set_the_kings_peace = no
-			set_the_kings_full_peace = no
-			set_protected_inheritance = no
-			if = {
-				limit = { has_dlc = "Zeus" }
-				add_law = law_voting_power_1
-				add_law = war_voting_power_1
-			}
-		}
-		vassal_limit = 5
-		demesne_size = -1
-		tribal_opinion = 10
+                if = {
+                    limit = {
+                        has_law = tolerance_2
+                    }
+                    revoke_law = tolerance_2
+                    add_law = tolerance_1
+                }
+                if = { 
+                    limit = { has_dlc = "Zeus" } 
+                    hidden_tooltip = {
+                        revoke_law = revoke_title_voting_power_1
+                        revoke_law = grant_title_voting_power_1
+                        disable_council_voting_on_issue = revoke_title_interaction
+                        disable_council_voting_on_issue = grant_landed_title_interaction
+                    }
+                }
+                set_the_kings_peace = no
+                set_the_kings_full_peace = no
+                set_protected_inheritance = no
+                if = {
+                    limit = { has_dlc = "Zeus" }
+                    add_law = law_voting_power_1
+                    add_law = war_voting_power_1
+                }
+            }
+            custom_tooltip = {
+                text = clanic_centralization_1_effect_1
+            }
+            custom_tooltip = {
+                text = clanic_centralization_1_effect_2
+            }
+            vassal_limit = 5
+            demesne_size = -1
+            tribal_opinion = 10
+        }
 	}
 	clanic_centralization_2 = {
 		show_as_title = yes
@@ -5004,7 +5002,6 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = clanic_centralization_0
 				revoke_law = clanic_centralization_1
-				revoke_law = clanic_centralization_2
 				revoke_law = clanic_centralization_3
 				revoke_law = clanic_centralization_4
 				if = {
@@ -5135,7 +5132,6 @@ laws = {
 				revoke_law = clanic_centralization_0
 				revoke_law = clanic_centralization_1
 				revoke_law = clanic_centralization_2
-				revoke_law = clanic_centralization_3
 				revoke_law = clanic_centralization_4
 			}
 			custom_tooltip = {
@@ -5253,7 +5249,6 @@ laws = {
 				revoke_law = clanic_centralization_1
 				revoke_law = clanic_centralization_2
 				revoke_law = clanic_centralization_3
-				revoke_law = clanic_centralization_4
 			}
 			custom_tooltip = {
 				text = clanic_centralization_4_effect_1

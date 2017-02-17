@@ -12,14 +12,16 @@ decisions = {
 			culture = saxon
 		}
 		allow = {
-			completely_controls = k_wessex
-			completely_controls = k_mercia
-			completely_controls = k_northumbria
-			has_landed_title = k_england
-			has_landed_title = k_eanglia
-			has_landed_title = k_essex
-			has_landed_title = k_kent
-			has_landed_title = k_sussex
+			completely_controls = d_bernicia
+			completely_controls = d_derenrice
+			completely_controls = d_hwicce
+			completely_controls = d_magonsaete
+            completely_controls = d_lindsey
+            completely_controls = d_middle_angles
+            completely_controls = d_norfolk
+            completely_controls = d_middlesex
+            completely_controls = d_canterbury
+            completely_controls = d_belgarum
 			prestige = 1000
 		}
 		effect = {
